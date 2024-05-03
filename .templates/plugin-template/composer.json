@@ -1,0 +1,21 @@
+{
+    "name": "your-name/__templateNameToParamCase__",
+    "description": "Plugin description",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "your@email.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "__templateNameToPascalCase__\\": "./",
+            "__templateNameToPascalCase__\\Controllers\\": "includes/controllers/",
+            "__templateNameToPascalCase__\\Models\\": "includes/models/",
+            "__templateNameToPascalCase__\\Views\\": "includes/views/",
+            "__templateNameToPascalCase__\\Common\\": "includes/common/"
+        }
+    }   
+}
